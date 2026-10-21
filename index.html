@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mini SQL Compiler</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<header><span class="logo">Mini<i>SQL</i> Compiler</span><span class="sub">Front-end: lexer, LL(1) parser, AST, semantic analysis</span>
+<select id="ex" aria-label="Example queries"></select><button id="rs">Reset</button><button id="go" class="pri" title="Ctrl/Cmd+Enter">Compile</button></header>
+<nav id="pipe" aria-label="Compiler pipeline"></nav>
+<main><section id="L"><div id="ed"><pre id="gut">1</pre><div id="wrap"><pre id="hl"></pre><textarea id="ta" spellcheck="false" wrap="off" aria-label="SQL editor"></textarea></div></div><div id="con"></div></section>
+<section id="R"><div id="tabs" role="tablist"></div><div id="pane"></div></section></main>
+<div id="toast" role="status"></div>
+<script type="module" src="js/main.js"></script></body></html>

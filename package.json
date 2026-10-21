@@ -1,0 +1,14 @@
+{
+  "name": "mini-sql-compiler",
+  "version": "1.0.0",
+  "description": "Compiler front-end for a restricted SQL subset",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test tests/compiler.test.js",
+    "docs": "node scripts/gen-docs.js",
+    "build": "node scripts/gen-docs.js && node --test tests/compiler.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
