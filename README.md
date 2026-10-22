@@ -3,7 +3,7 @@
 A compiler front-end for a restricted SQL subset (`SELECT`, `FROM`, `WHERE`, `ORDER BY`) with a dark IDE-style web UI.
 It implements the full front-end pipeline and shows every stage visually.
 
-```
+``` 
 SQL text -> Lexer -> Tokens -> LL(1) Parser -> Parse tree -> AST -> Semantic analysis -> Report (+ execution on sample data)
 ```
 
