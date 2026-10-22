@@ -12,6 +12,7 @@ SQL text -> Lexer -> Tokens -> LL(1) Parser -> Parse tree -> AST -> Semantic ana
 Requires Node 18+. No dependencies to install.
 
 ```bash
+npm run dev      # http://localhost:3000  (development mode with auto-reload)
 npm start        # http://localhost:3000  (serves the UI and POST /api/compile)
 npm test         # 22 automated tests (valid, syntax, lexical, semantic, edge, stress)
 npm run build    # regenerates docs and verifies test suite (used by Netlify / CI)

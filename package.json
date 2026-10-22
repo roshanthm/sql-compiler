@@ -4,6 +4,7 @@
   "description": "Compiler front-end for a restricted SQL subset",
   "type": "module",
   "scripts": {
+    "dev": "node --watch server/server.js",
     "start": "node server/server.js",
     "test": "node --test tests/compiler.test.js",
     "docs": "node scripts/gen-docs.js",
