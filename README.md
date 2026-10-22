@@ -83,4 +83,4 @@ Single table, no joins or aggregates, direct left recursion only in the transfor
 
 ## References
 
-Aho, Lam, Sethi, Ullman - *Compilers: Principles, Techniques, and Tools* (2nd ed.). Cooper and Torczon - *Engineering a Compiler*. Appel - *Modern Compiler Implementation*.
+Aho, Lam, Sethi, Ullman - *Compilers: Principles, Techniques, and Tools* (2nd ed.). Cooper and Torczon - * Engineering a Compiler *. Appel - *Modern Compiler Implementation*.
